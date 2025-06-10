@@ -41,7 +41,7 @@
 ## 📦 ساختار پروژه
 ```bash
 crypto-price-bot/
-├── config.example.php # نمونه فایل تنظیمات
+├── config.php # نمونه فایل تنظیمات
 ├── crypto_price_bot.php # اسکریپت اصلی ربات
 ├── .htaccess # تنظیمات امنیتی سرور
 ├── .gitignore # فایل‌هایی که نباید در گیت ثبت شوند
@@ -51,7 +51,6 @@ crypto-price-bot/
 ```bash
 git clone https://github.com/arash-aryapour/Persian-Crypto-Price-Bot.git
 cd Persian-Crypto-Price-Bot
-cp config.example.php config.php
 ```
 
 ### 2. تنظیمات تلگرام
